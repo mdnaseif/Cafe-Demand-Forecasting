@@ -10,6 +10,17 @@ The cafe is experiencing daily fluctuations in stock levels, leading to:
 
 These issues result in increased wastage costs and decreased profits. The goal is to develop a daily demand forecasting model for the cafe's products to improve inventory management.
 
+## Application Preview
+Below is a screenshot of the Prophet Forecasting App in action:
+
+![Prophet Forecasting App](Snapshot.png)
+
+This image showcases the main features of our application:
+- Future predictions chart for the next 28 days
+- Model performance metrics (MAPE on test set)
+- Forecast for a specific date
+- Interactive elements for user input
+
 ## Data Collection
 - Data source: POS (Point of Sale) system
 - Collection method: Web scraping using Octoparse
@@ -39,7 +50,7 @@ Key features:
 - Incorporation of additional regressors (WeekDay, Is_Weekend)
 - Model parameters tuning (changepoints, seasonality)
 - Train-test split for model evaluation
-- RMSE (Root Mean Square Error) calculation for model performance assessment
+- MAPE (Mean Absolute Percentage Error) calculation for model performance assessment
 
 ## Files in the Repository
 1. `app.py`: Streamlit web application for interactive forecasting
